@@ -36,3 +36,29 @@ function downloadPDF() {
     // Clean up
     document.body.removeChild(anchor);
 }
+
+
+
+
+// JavaScript to add the 'active' class when the element is in the viewport
+const elements = document.querySelectorAll('.project-card');
+const windowHeight = window.innerHeight;
+
+function checkScroll() {
+  elements.forEach((element) => {
+    const position = element.getBoundingClientRect();
+
+    if (position.top < windowHeight && position.bottom >= 0) {
+      element.classList.add('active');
+    } else {
+      element.classList.remove('active');
+    }
+  });
+}
+
+window.addEventListener('scroll', checkScroll);
+window.addEventListener('resize', checkScroll);
+
+
+
+

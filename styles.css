@@ -10,6 +10,18 @@
   --max-width: 1200px;
 }
 
+
+/* :root {
+  --primary-color: #CA61C3;
+  --primary-color-dark: #883677;
+  --secondary-color: #ca8a04;
+  --text-dark: #13293D;
+  --text-light: #618985;
+  --extra-light: #E2E2E2;
+  --max-width: 1200px;
+} */
+
+
 * {
   padding: 0;
   margin: 0;
@@ -301,7 +313,21 @@ ul li a:hover {
   display: inline-block;
   width: 100%; /* Default to full width */
   text-align: left;
+
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Move down initially */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+
+
 }
+
+.project-card.active {
+  opacity: 1; /* Fade in when active */
+  transform: translateY(0); /* Move up when active */
+}
+
+
+
 
 /* Style for project card titles */
 .project-title {
@@ -437,12 +463,12 @@ ul li a:hover {
 
 .mylinks {
   /* color: var(--primary-color); */
-  color: black;
+  color: #441151;
 }
 
 .mylinks:hover {
   /* background-color: var(--primary-color-dark); */
-  background-color: black;
+  background-color: #CA61C3;
   color: #ffffff;
 }
 
