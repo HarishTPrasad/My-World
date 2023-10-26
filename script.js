@@ -62,3 +62,22 @@ window.addEventListener('resize', checkScroll);
 
 
 
+// JavaScript code to close the navbar on list item click
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the checkbox input element
+  var checkbox = document.getElementById("check");
+
+  // Get all list items in the navigation menu
+  var listItems = document.querySelectorAll("nav ul li a");
+
+  // Add click event listeners to each list item
+  listItems.forEach(function (item) {
+    item.addEventListener("click", function () {
+      // Check if the checkbox is checked (menu open)
+      if (checkbox.checked) {
+        // Uncheck the checkbox to close the menu
+        checkbox.checked = false;
+      }
+    });
+  });
+});

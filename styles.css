@@ -78,14 +78,14 @@ nav .checkbox i {
   cursor: pointer;
 }
 
-ul {
+.nav__content ul {
   display: flex;
   align-items: center;
   list-style: none;
   transition: left 0.3s;
 }
 
-ul li a {
+.nav__content ul li a {
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
   text-decoration: none;
@@ -94,7 +94,7 @@ ul li a {
   transition: 0.3s;
 }
 
-ul li a:hover {
+.nav__content ul li a:hover {
   border-top-color: var(--secondary-color);
   border-bottom-color: var(--secondary-color);
   color: var(--secondary-color);
@@ -199,7 +199,7 @@ ul li a:hover {
     display: block;
   }
 
-  ul {
+  .nav__content ul {
     position: absolute;
     width: 100%;
     height: calc(100vh - 85px);
@@ -215,7 +215,7 @@ ul li a:hover {
     left: 0;
   }
 
-  ul li a {
+  .nav__content ul li a {
     font-size: 1.25rem;
   }
 
@@ -415,9 +415,21 @@ ul li a:hover {
 }
 
 .aboutmep {
-  margin-left: 10%;
-   margin-right: 10%;
     color: var(--text-light);
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  margin-left: 10%;
+
+}
+
+.aboutmep ul li {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .myprojectp {
@@ -492,3 +504,8 @@ ul li a:hover {
   height: auto;
   margin-bottom: 1rem; /* Adjust the spacing as needed */
 }
+
+
+
+
+
