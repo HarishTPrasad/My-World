@@ -17,23 +17,22 @@
 
 
 
-
+// script for connecting resume
 
 function downloadPDF() {
-    // Replace this with the actual URL of your PDF file
+  
     var pdfURL = "https://drive.google.com/file/d/1lj-nb5fMp3o-LZUmRjrJMQszbIw5Y6q6/view?usp=sharing";
     
-    // Create an invisible anchor element
     var anchor = document.createElement("a");
     anchor.style.display = "none";
     anchor.href = pdfURL;
-    anchor.download = "HarishPrasadResume.pdf"; // Change the filename as needed
+    anchor.download = "HarishPrasadResume.pdf"; 
     
-    // Append the anchor to the document body and trigger the click event
+    
     document.body.appendChild(anchor);
     anchor.click();
     
-    // Clean up
+    
     document.body.removeChild(anchor);
 }
 
@@ -64,20 +63,113 @@ window.addEventListener('resize', checkScroll);
 
 // JavaScript code to close the navbar on list item click
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the checkbox input element
+ 
   var checkbox = document.getElementById("check");
 
-  // Get all list items in the navigation menu
   var listItems = document.querySelectorAll("nav ul li a");
 
-  // Add click event listeners to each list item
   listItems.forEach(function (item) {
     item.addEventListener("click", function () {
-      // Check if the checkbox is checked (menu open)
+      
       if (checkbox.checked) {
-        // Uncheck the checkbox to close the menu
+       
         checkbox.checked = false;
       }
     });
   });
 });
+
+
+
+
+
+
+
+// // const colors = ['#ff6f61', '#6b5b95', '#88b04b', '#f7cac9', '#92a8d1'];
+// const colors = ['#ff9999', '#b0c4de', '#c1e0d7', '#f0e68c', '#afeeee'];
+
+// const numParticles = 200; // Number of particles in the animation
+
+// for (let i = 0; i < numParticles; i++) {
+//   createParticle();
+// }
+
+// function createParticle() {
+//   const particle = document.createElement('div');
+//   particle.classList.add('particle');
+//   document.body.appendChild(particle);
+
+//   animateParticle(particle);
+// }
+
+// function animateParticle(particle) {
+//   const size = Math.random() * 20 + 5;
+//   const color = colors[Math.floor(Math.random() * colors.length)];
+//   const duration = Math.random() * 5 + 2;
+
+//   // const startTop = Math.random() * (window.innerHeight * 14.9);
+//   // const startLeft = Math.random() * (window.innerWidth * 0.96); 
+//   const startTop = Math.random() * (window.innerHeight * 1);
+//   const startLeft = Math.random() * (window.innerWidth * 1); 
+
+
+//   particle.style.background = color;
+//   particle.style.width = size + 'px';
+//   particle.style.height = size + 'px';
+//   particle.style.top = startTop + 'px';
+//   particle.style.left = startLeft + 'px';
+
+//   moveParticle(particle);
+// }
+
+// function moveParticle(particle) {
+//   const duration = Math.random() * 5 + 2;
+
+//   setTimeout(() => {
+//     particle.remove();
+//     createParticle();
+//   }, duration * 1000);
+// }
+
+// function addParticles() {
+//   const particles = document.querySelectorAll('.particle');
+//   if (particles.length < numParticles) {
+//     createParticle();
+//   }
+// }
+
+// setInterval(addParticles, 500); // Adjust the interval as needed
+
+
+
+// animation by java script
+
+window.onload = function () {
+  const particles = document.getElementById('particles');
+
+  function createParticle() {
+    const particle = document.createElement('particle');
+    particle.className = 'particle';
+
+    const { innerWidth, innerHeight } = window;
+
+    const size = Math.random() * 100;
+
+    particle.style.width = `${size}px`;
+    particle.style.height = `${size}px`;
+    particle.style.background = `rgba(168, 85, 247, ${Math.random()})`;
+
+    particle.style.top = `${Math.random() * innerHeight}px`;
+    particle.style.left = `${Math.random() * innerWidth}px`;
+
+    particle.style.animation = `particleAnimation ${Math.random() * 3 + 2}s linear infinite`;
+
+    particles.appendChild(particle);
+
+    setTimeout(() => {
+      particles.removeChild(particle);
+    }, Math.random() * 5000);
+  }
+
+  setInterval(createParticle, 150);
+};
