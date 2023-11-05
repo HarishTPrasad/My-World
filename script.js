@@ -160,7 +160,7 @@ window.onload = function () {
     particle.style.background = `rgba(168, 85, 247, ${Math.random()})`;
 
     particle.style.top = `${Math.random() * innerHeight}px`;
-    particle.style.left = `${Math.random() * innerWidth * 0.4}px`;
+    particle.style.left = `${Math.random() * innerWidth * 0.73}px`;
 
     particle.style.animation = `particleAnimation ${Math.random() * 3 + 2}s linear infinite`;
 
