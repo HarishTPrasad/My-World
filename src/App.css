@@ -349,17 +349,17 @@ nav .checkbox i {
   text-align: left;
   z-index: 1;
 
-  opacity: 0; 
+  /* opacity: 0; 
   transform: translateY(20px); 
-  transition: opacity 1s ease, transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease; */
 
 
 }
 
-.project-card.active {
+/* .project-card.active {
   opacity: 1; 
   transform: translateY(0);
-}
+} */
 
 
 
@@ -546,8 +546,4 @@ nav .checkbox i {
   height: auto;
   margin-bottom: 1rem; 
 }
-
-
-
-
 
