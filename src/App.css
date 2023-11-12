@@ -256,6 +256,7 @@ nav .checkbox i {
     grid-template-columns: repeat(1, 1fr);
   }
 
+
   .image {
     grid-area: 1/1/2/2;
   }
@@ -263,6 +264,25 @@ nav .checkbox i {
   .action__btns {
     margin: auto;
   }
+
+  .section__container {
+    margin-top: -80px;
+  }
+
+  
+.nav__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+
 }
 
 /* Contact Section Styles */
@@ -547,3 +567,6 @@ nav .checkbox i {
   margin-bottom: 1rem; 
 }
 
+.space {
+  margin-top: 40px;
+}

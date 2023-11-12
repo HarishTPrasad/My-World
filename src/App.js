@@ -13,7 +13,6 @@ import Team from './components/Team';
 function App() {
   return (
     <>
-    <h1>hello</h1>
     <Nav></Nav>
     <ParticleAnimation></ParticleAnimation>
     <Home></Home>

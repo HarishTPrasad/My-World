@@ -51,7 +51,7 @@ export default function Project() {
           </div>
 
           <div>
-            <h3 ><i class="fa-solid fa-star"></i> lot's of exciting works on my github account.</h3>
+            <h3 class="space" ><i class="fa-solid fa-star"></i> lot's of exciting works on my github account.</h3>
           </div>
 
       </div>

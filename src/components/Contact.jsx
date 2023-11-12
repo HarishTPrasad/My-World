@@ -4,13 +4,13 @@ export default function Contact() {
   return (
     <>
 
-<section id="contact" class="section">
+    <section id="contact" class="section">
       <div class="sectionContainer" >
 
         <div class="contactdiv1">
           <h2 class="contacth2">Contact Me</h2>
           <h3><i class="fa-solid fa-envelope"></i>  Email : <span></span>harish1090prasad@gmail.com </h3>
-          <h3><i class="fa-solid fa-phone"></i>  Contact no:<span></span> 7600922448 </h3>
+          <h3><i class="fa-solid fa-phone"></i>  Contact no: <span></span> 7600922448 </h3>
         </div>
 
         <div class="ending">
@@ -32,6 +32,14 @@ export default function Contact() {
               <a href="https://wa.me/qr/IKL3YFWY4TZLP1">
                 <button class="mylinks"><i class="fa-brands fa-whatsapp fa-xl"></i> WHATS APP</button>
               </a>
+                          
+
+               <a href="https://wa.me/qr/IKL3YFWY4TZLP1" target="_blank" rel="noopener noreferrer">
+                 <button className="mylinks">
+                 <i className="fa-brands fa-whatsapp fa-xl"></i> WHATS APP
+                  </button>
+                    </a>
+
 
           </div>
 
@@ -58,8 +66,8 @@ export default function Contact() {
 
         </div>
       
-      </div>
-    </section>
+        </div>
+      </section>
 
 
     </>

@@ -58,7 +58,7 @@ export default function Resume() {
           </div>
 
           <div>
-            <h3 > lot's of more Certifications on my Linkedin account.</h3>
+            <h3 class="space"> lot's of more Certifications on my Linkedin account.</h3>
           </div>
       </div>
 
