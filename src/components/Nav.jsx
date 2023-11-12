@@ -27,7 +27,7 @@ export default function Nav() {
       <div class="nav__content">
         <div class="logo"><a href="#"><i class="fa-solid fa-microchip fa-beat fa-lg"></i>   CopyNinja </a></div>
         <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
+        <i class="fa-solid fa-bars fa-xl"></i>
         </label>
         <input type="checkbox" name="check" id="check" />
         <ul>
