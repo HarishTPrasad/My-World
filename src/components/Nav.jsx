@@ -1,10 +1,8 @@
-import React from 'react'
 
-
+import React, { useState } from 'react';
 
 export default function Nav() {
-
-
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavClick = (targetId) => {
     const targetElement = document.getElementById(targetId);
@@ -14,25 +12,35 @@ export default function Nav() {
         top: targetElement.offsetTop,
         behavior: 'smooth',
       });
+
+
+      closeMobileMenu();
     }
   };
 
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
-
-
     <>
-
-    <nav>
-      <div class="nav__content">
-        <div class="logo"><a href="#"><i class="fa-solid fa-microchip fa-beat fa-lg"></i>   CopyNinja </a></div>
-        <label for="check" class="checkbox">
-        <i class="fa-solid fa-bars fa-xl"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-        
-             <li>
+      <nav>
+        <div className="nav__content">
+          <div className="logo">
+            <a href="#">
+              <i className="fa-solid fa-microchip fa-beat fa-lg"></i> CopyNinja
+            </a>
+          </div>
+          <label htmlFor="check" className="checkbox">
+            <i className="fa-solid fa-bars fa-xl" onClick={toggleMobileMenu}></i>
+          </label>
+          <input type="checkbox" name="check" id="check" checked={isMobileMenuOpen} />
+          <ul className={isMobileMenuOpen ? 'mobile-menu-open' : ''}>
+            <li>
               <a onClick={() => handleNavClick('home')}>
                 <i className="fa-solid fa-house-chimney"></i> Home
               </a>
@@ -62,16 +70,9 @@ export default function Nav() {
                 <i className="fa-solid fa-id-badge"></i> Contact
               </a>
             </li>
-
-        </ul>
-      </div>
-    </nav>
-    
+          </ul>
+        </div>
+      </nav>
     </>
-
-
-  )
+  );
 }
-
-
-
