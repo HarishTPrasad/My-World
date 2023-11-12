@@ -266,21 +266,8 @@ nav .checkbox i {
   }
 
   .section__container {
-    margin-top: -80px;
+    margin-top: -40px;
   }
-
-  
-.nav__content {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 1rem 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 
 
 }
