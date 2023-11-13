@@ -28,7 +28,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav>
+      <nav style={{ cursor: 'pointer' }}>
         <div className="nav__content">
           <div className="logo">
             <a href="#">
