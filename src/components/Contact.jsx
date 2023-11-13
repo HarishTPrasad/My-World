@@ -34,14 +34,6 @@ export default function Contact() {
               <a href="https://wa.me/qr/IKL3YFWY4TZLP1" target="_blank" rel="noopener noreferrer">
                 <button class="mylinks"><i class="fa-brands fa-whatsapp fa-xl"></i> WHATS APP</button>
               </a>
-                          
-
-               <a href="https://wa.me/qr/IKL3YFWY4TZLP1" target="_blank" rel="noopener noreferrer" >
-                 <button className="mylinks">
-                 <i className="fa-brands fa-whatsapp fa-xl"></i> WHATS APP
-                  </button>
-                    </a>
-
 
           </div>
 
