@@ -87,6 +87,9 @@ nav .logo a {
   font-weight: 600;
   color: var(--primary-color);
   transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+  padding: 4px;
 }
 nav .logo a:hover {
   color: var(--primary-color-dark);
@@ -96,6 +99,11 @@ nav .logo a:hover {
 
 nav .checkbox {
   display: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px;
+  
+  
 }
 
 nav input {
@@ -121,6 +129,9 @@ nav .checkbox i {
   font-weight: 600;
   color: var(--text-dark);
   transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+ ;
 }
 
 .nav__content ul li a:hover {
