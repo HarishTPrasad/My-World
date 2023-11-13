@@ -17,19 +17,19 @@ export default function Contact() {
 
           <div class="mybtns" >
 
-            <a href="https://github.com/HarishTPrasad" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/HarishTPrasad" >
               <button  class="mylinks"><i class="fa-brands fa-github fa-xl"></i> GITHUB</button>
               </a>
 
-              <a href="https://www.linkedin.com/in/harish-prasad-75a680243/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/harish-prasad-75a680243/" >
                 <button class="mylinks"><i class="fa-brands fa-linkedin-in fa-xl"></i> LINKEDIN</button>
               </a>
 
-              <a href="https://www.instagram.com/harryyy._13/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/harryyy._13/" >
                 <button class="mylinks"><i class="fa-brands fa-instagram fa-xl"></i> INSTAGRAM</button>
               </a>
 
-              <a href="https://wa.me/qr/IKL3YFWY4TZLP1" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/qr/IKL3YFWY4TZLP1" >
                 <button class="mylinks"><i class="fa-brands fa-whatsapp fa-xl"></i> WHATS APP</button>
               </a>
 

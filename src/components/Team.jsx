@@ -42,10 +42,10 @@ export default function Team() {
         </p>
         <div class="action__btns">
 
-          <a href="https://chat.whatsapp.com/J3eguflen8L62OtgXBHQC4">
+          <a href="https://chat.whatsapp.com/J3eguflen8L62OtgXBHQC4" rel="noopener noreferrer">
             <button class="hire__me"><i class="fa-solid fa-people-group fa-fade"></i> Join Us</button>
           </a>
-          <a href="https://chat.whatsapp.com/J3eguflen8L62OtgXBHQC4">
+          <a href="https://chat.whatsapp.com/J3eguflen8L62OtgXBHQC4" rel="noopener noreferrer">
              <button class="portfolio"><i class="fa-solid fa-microchip"></i> Cypher Elites</button>
            </a>
         </div>
