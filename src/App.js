@@ -10,6 +10,7 @@ import Resume from './components/Resume';
 import Team from './components/Team';
 
 
+
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
     <Resume></Resume>
     <Project></Project>
     <Contact></Contact>
+   
     </>
     
   );
