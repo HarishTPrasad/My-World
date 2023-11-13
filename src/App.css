@@ -91,6 +91,8 @@ nav .logo a:hover {
   color: var(--primary-color-dark);
 }
 
+
+
 nav .checkbox {
   display: none;
 }
@@ -223,6 +225,9 @@ nav .checkbox i {
   width: min(25rem, 90%);
   border-radius: 100%;
 }
+
+
+
 
 /* MEDIA QUERY FOR NAVBAR AND HOME SECTION */
 @media (width < 845px) {
@@ -535,7 +540,8 @@ nav .checkbox i {
 
 .contactdiv1 {
   background-color: #f8f8f8;
-   padding: 20px;
+   padding: 40px;
+   
     /* margin-left: 15%; */
 }
 

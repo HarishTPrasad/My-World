@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import myImage from './assets/team.png'
 
 export default function Team() {
+
+
+  const [text, setText] = useState(' HELLO ');
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setText((prevText) => (prevText === ' HELLO ' ? ' HEYY!! ' : ' HELLO '));
+    }, 1000);
+
+    // Cleanup the interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+
+
+
   return (
 
     <>
@@ -13,7 +29,7 @@ export default function Team() {
         <img src={myImage} alt="profile" />
       </div>
       <div class="content">
-        <p class="subtitle">Hey!</p>
+        <p class="subtitle">{text}</p>
         <h1 class="title">
           We are <span><i class="fa-solid fa-earth-asia fa-spin"></i> CYPHER ELITES<br />the</span> Tech Freaks
         </h1>

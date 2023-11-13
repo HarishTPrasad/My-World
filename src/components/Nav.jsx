@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Nav() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,13 +26,18 @@ export default function Nav() {
     setMobileMenuOpen(false);
   };
 
+
   return (
+
+
+
+
     <>
       <nav style={{ cursor: 'pointer' }}>
         <div className="nav__content">
-          <div className="logo">
+          <div className="logo" >
             <a href="#">
-              <i className="fa-solid fa-microchip fa-beat fa-lg"></i> CopyNinja
+              <i className="fa-solid fa-microchip fa-beat fa-lg"></i> Copy Ninja
             </a>
           </div>
           <label htmlFor="check" className="checkbox">

@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import myImage from './assets/profile.jpg';
 
 
+
 export default function Home() {
+
+
+  
+  const [text, setText] = useState(' HELLO ');
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setText((prevText) => (prevText === ' HELLO ' ? ' HEYY!! ' : ' HELLO '));
+    }, 1000);
+
+    // Cleanup the interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+
+
+
+
   return (
     <>
 
@@ -11,7 +30,7 @@ export default function Home() {
     <div class="section__container">
      
       <div class="content" >
-        <p class="subtitle">HELLO</p>
+        <p class="subtitle">{text}</p>
         <h1 class="title">
           I'm <span>Harish Prasad<br/>a</span> Tech Enthusiast
         </h1>
