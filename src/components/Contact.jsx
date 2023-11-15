@@ -65,6 +65,3 @@ export default function Contact() {
     </>
   )
 }
-
-
-

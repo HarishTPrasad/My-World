@@ -527,10 +527,6 @@ nav .checkbox i {
 
 
 
-
-
-
-
 /* MEDIA QUERY FOR FOOTER CONTACT section */
 @media (width > 845px){
   .ending {
@@ -543,6 +539,25 @@ nav .checkbox i {
   }
 
 }
+
+@media (width < 845px){
+  .ending {
+    display: grid; 
+
+  }
+  
+  .contact-content, .mybtns {
+    flex: 1; 
+    padding: 10px;
+  }
+
+}
+
+
+
+
+
+
 
 /* Contact Section Styles */
 .contact-content {
@@ -653,3 +668,4 @@ nav .checkbox i {
     margin-bottom: 40px;
     
 }
+
