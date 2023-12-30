@@ -9,8 +9,8 @@ export default function Contact() {
 
         <div class="contactdiv1">
           <h2 class="contacth2">Contact Me</h2>
-          <h3><i class="fa-solid fa-envelope"></i>  Email : <span></span>harish1090prasad@gmail.com </h3>
-          <h3><i class="fa-solid fa-phone"></i>  Contact no: <span></span> 7600922448 </h3>
+          <h3 class="contacth2"> <i class="fa-solid fa-envelope"></i>  Email : <span></span>harish1090prasad@gmail.com </h3>
+          <h3 class="contacth2"> <i class="fa-solid fa-phone"></i>  Contact no: <span></span> 7600922448 </h3>
         </div>
 
         <div class="ending">

@@ -1,13 +1,13 @@
 
 import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Nav from './components/Nav';
-import ParticleAnimation from './components/ParticleAnimation';
-import Project from './components/Project';
-import Resume from './components/Resume';
-import Team from './components/Team';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Home from './components/Home/Home';
+import Nav from './components/Nav/Nav';
+import ParticleAnimation from './components/ParticalAnimation/ParticleAnimation';
+import Project from './components/Project/Project';
+import Resume from './components/Resume/Resume';
+import Team from './components/Team/Team';
 
 
 

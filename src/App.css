@@ -567,6 +567,7 @@ nav .checkbox i {
   margin-left: 10%;
   
   
+  
 }
 
 .section-title {
@@ -658,6 +659,7 @@ nav .checkbox i {
   background-color: #f8f8f8;
    padding: 40px;
    
+   
     /* margin-left: 15%; */
 }
 
@@ -666,6 +668,11 @@ nav .checkbox i {
   color: var(--text-dark);
    margin-top: 80px;
     margin-bottom: 40px;
+  
     
 }
 
+.contactdiv1 {
+  background-color: var(--extra-light);
+  
+}

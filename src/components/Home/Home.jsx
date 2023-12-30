@@ -30,7 +30,7 @@ export default function Home() {
     <div class="section__container">
      
       <div class="content" >
-        <p class="subtitle">{text}</p>
+        <p class="subtitle">hey</p>
         <h1 class="title">
           I'm <span>Harish Prasad<br/>a</span> Tech Enthusiast
         </h1>
