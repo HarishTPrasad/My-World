@@ -24,7 +24,7 @@
     padding: 20px;
     justify-content: center;
     background-color: var(--extra-light);
-    margin-left:15px;
+    
 }
 
 .UniqueCard {
@@ -35,6 +35,7 @@
     position: relative;
     transition: 0.5s ease-in-out;
     overflow: hidden;
+    margin-left:20px;
 }
 
 .UniqueProfilePic {
