@@ -28,14 +28,13 @@
 }
 
 .UniqueCard {
-    width: 280px;
+    width: 100%;
     height: 280px;
     background: white;
     border-radius: 30px;
     position: relative;
     transition: 0.5s ease-in-out;
     overflow: hidden;
-    margin-left:20px;
 }
 
 .UniqueProfilePic {
