@@ -16,10 +16,6 @@
     background-color: var(--extra-light);
 }
 
-#Pro {
-    display: flex;
-    justify-content: center;
-}
 
 .UniqueProjects {
     display: grid;
