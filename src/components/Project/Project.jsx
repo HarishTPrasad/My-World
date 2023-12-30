@@ -26,7 +26,8 @@ export default function Project() {
 </div>
 
 
-<div class="UniqueProjects" id="Pro">
+<div class="Pro">
+    <div class="UniqueProjects" >
 
     <div class="UniqueCard">
 
@@ -163,6 +164,7 @@ export default function Project() {
 
 </div> 
 
+</div>
 </div>
 
    </>

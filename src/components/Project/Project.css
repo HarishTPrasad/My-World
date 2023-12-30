@@ -24,6 +24,7 @@
     padding: 20px;
     justify-content: center;
     background-color: var(--extra-light);
+    margin-left:15px;
 }
 
 .UniqueCard {
