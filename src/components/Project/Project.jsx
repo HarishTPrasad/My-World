@@ -10,8 +10,7 @@ import img4 from  './assets/storyfasion.JPG';
 export default function Project() {
   return (
    <>
-
-
+   
 <div class="Head" id="projects">
   <div class="Head1">
 
