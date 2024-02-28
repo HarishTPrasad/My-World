@@ -35,10 +35,12 @@ export default function Home() {
           I'm <span>Harish Prasad<br/>a</span> Tech Enthusiast
         </h1>
         <p class="description"> <i class="fa-solid fa-wand-magic-sparkles"></i>
+        
           Welcome to my Tech Stack portfolio! I'm Harish Prasad, a skilled and
           creative Tech Enthusiast with a passion for creating beautiful,
           responsive, and user-friendly websites. I've worked on a variety of
           web projects, ranging from personal blogs to e-commerce platforms.
+
         </p>
         <div class="action__btns">
           <button class="hire__me"><i class="fa-solid fa-bolt fa-fade"></i>Hire Me </button>
