@@ -5,6 +5,8 @@ export default function About() {
    
     <>
 
+
+
 <section id="about" class="section">
     <div class="sectionContainer" >
       <div  >
@@ -36,7 +38,6 @@ export default function About() {
        
     </div>
 </section>
-    
     
     </>
 
