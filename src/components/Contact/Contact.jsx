@@ -40,7 +40,7 @@ export default function Contact() {
                     
                     <p className="section-description">Feel free to reach out. I'd love to connect ! <i className="fa-regular fa-paper-plane"></i></p>
 
-                    <form action="" method="POST" className="contact-form">
+                    <form action="https://formspree.io/f/movqbogv" method="POST" className="contact-form">
                         <label for="name"><i className="fa-solid fa-pen"></i> Your Name:</label>
                         <input type="text" id="name" name="name" className="contact-input" required />
 
