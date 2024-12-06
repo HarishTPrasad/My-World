@@ -26,7 +26,7 @@ export default function Contact() {
                         <button className="mylinks"><i className="fa-brands fa-linkedin-in fa-xl"></i> LINKEDIN</button>
                       </a>
 
-                      <a href="https://www.instagram.com/harryyy._13/" >
+                      <a href="https://www.instagram.com/harrxyy_4/" >
                         <button className="mylinks"><i className="fa-brands fa-instagram fa-xl"></i> INSTAGRAM</button>
                       </a>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                     
                     <p className="section-description">Feel free to reach out. I'd love to connect ! <i className="fa-regular fa-paper-plane"></i></p>
 
-                    <form className="contact-form">
+                    <form action="" method="POST" className="contact-form">
                         <label for="name"><i className="fa-solid fa-pen"></i> Your Name:</label>
                         <input type="text" id="name" name="name" className="contact-input" required />
 
