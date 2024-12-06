@@ -2,8 +2,19 @@ import React from 'react'
 import myImage from './assets/isro.png'
 import myImagea from './assets/google.png'
 import myImagee from './assets/nasaapp.png'
+import resumeFile from './assets/Resume_HTP.pdf'
 
 export default function Resume() {
+
+
+  const downloadPDF = () => {
+    const link = document.createElement("a");
+    link.href = resumeFile; // Use imported file for the path
+    link.download = "Harish_Prasad_Resume.pdf"; // Name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
 
   return (
@@ -15,9 +26,11 @@ export default function Resume() {
 
                     <section id="resume" class="custom-section">
                       <div class="custom-section-container">
-                        <h1 class="download"> <i class="fa-solid fa-download"></i> Download My Resume</h1>
+                        <h1 class="download"> <i class="fa-solid fa-download">
+                          </i> Download My Resume</h1>
                         <div class="action__btns">
-                          <button onclick="downloadPDF()" class="downloadbt"><i class="fa-solid fa-file"></i> Resume</button>
+                          <button onClick={downloadPDF} class="downloadbt">
+                            <i class="fa-solid fa-file"></i> Resume</button>
                         </div>
                       </div>
                     </section>
